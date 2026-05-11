@@ -7,6 +7,9 @@ jobs:
     name: Produce artifact
     runs-on: ubuntu-24.04
     steps:
+      - name: Where we are
+        run: pwd
+        
       - name: Create artifact file
         run: |
           echo "This will be stored as an artifact!" > artifact.txt
