@@ -17,5 +17,5 @@ outputs:
 runs:
   using: docker
   image: sidpalas/shell-container-action:v0.0.1 # specifying a public image allows you to skip the build
-  env:
-    INPUT_WHO_TO_GREET: ${{ inputs.who-to-greet }}
+  # env:
+  #   INPUT_WHO_TO_GREET: ${{ inputs.who-to-greet }}
